@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Bai2Activity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/llDVat"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Động vật"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llTraiCay"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dau"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Trái cây"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Phương tiện"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Trang phục"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Hình dáng"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Cơ thể"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Nghề nhiệp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Hoa lá"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="130dp">
+            <ImageView
+                android:src="@drawable/dv1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Đồ vật"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
